@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #0c0c0c 16.62%, #a3a3a2 85.61%);
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.header-imagem{
+    height: 72px;
+}
+
+.header-menu{
+    display: flex;
+    gap: 35px;
+}
+
+.header-menu-item{
+    font-family: 'Sarala',serif;
+    color: aliceblue;
+    font-weight: 150;
+    font-size: 18px;
+}
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #ffffff ;
+}
+
+.conteudo-principal{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFF2E7;
+}
+
+.conteudo-principal-escrito-subtitulo{
+    font-family: 'Sarala',serif;
+    font-weight: 400;
+    font-size: 24px;
+    color:#FFF2E7;
+}
+
+.conteudo-principal-escrito-botao{
+    background-color: rgb(95, 95, 95);
+    width: 185px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25) ;
+    border-radius: 20px;
+
+    font-family: 'Sarala',serif;
+    font-weight: 400;
+    font-size: 24px;
+    color:#ffffff;
+}
+
+.conteudo-principal-escrito-botao:hover{
+    background: #d3cdd321;
+    box-shadow: 0 0 10px  #5d5b5f, 0 0 15px #3c3a42, 0 0 30px #1f1d22;
+}
+
+
+.conteudo-principal-imagem{
+    margin-top: 40px;
+    height: 350px;
+    padding:25px ;
+    border-radius: 50%;
+}
+
+.conteudo-secundario{
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 200px;
+
+}
+
+.conteudo-secundario-gif{
+    align-content: center;
+}
+
+.conteudo-secundario-titulo{
+    
+    padding-top: 25px ;
+    margin-bottom: 16px;
+    
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ffffff;
+
+}
+
+.conteudo-secundario-paragrafo{
+    font-family: 'Sarala',serif;
+    font-weight: 400;
+    font-size: 24px;
+    color:#a1a09f;
+}
+
+.footer{
+    display: flex;
+    flex-direction:row-reverse;
+    
+}
+
+.footer-img{
+    height: 500px;
+}
